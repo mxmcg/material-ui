@@ -36,16 +36,16 @@ In general, you can expect the following release cycle:
 - 1-3 **minor** releases for each major release.
 - A **patch** release every week (anytime for urgent bugfix).
 
-## Release schedule
+## 发布计划
 
-> Disclaimer: The dates are offered as general guidance and may be adjusted by us when necessary to ensure delivery of a high-quality code.
+> 免责声明: 日期作为一般指导提供, 我们可以在必要时调整, 以确保交付高质量的代码。
 
-| Date         | Version                    |
-|:------------ |:-------------------------- |
-| January 2019 | `@material-ui/core` v4.0.0 |
-| July 2019    | `@material-ui/core` v5.0.0 |
+| 日期      | 版本                         |
+|:------- |:-------------------------- |
+| 2019年1月 | `@material-ui/core` v4.0.0 |
+| 2019年7月 | `@material-ui/core` v5.0.0 |
 
-You can follow [our milestones](https://github.com/mui-org/material-ui/milestones) for a more detailed overview.
+你可以在 [ 我们的里程碑 ](https://github.com/mui-org/material-ui/milestones) 中查看更详细的概述。
 
 ## Support policy
 
@@ -62,7 +62,7 @@ To make these transitions as easy as possible, we make two commitments to you:
 
 To help ensure that you have sufficient time and a clear path to update, this is our deprecation policy:
 
-- We announce deprecated features in the changelog, and when possible, with warnings at runtime.
-- When we announce a deprecation, we also announce a recommended update path.
+- 我们会在更新日志中公布过时的功能, 并在可能的情况下, 在运行时发出警告。
+- 当我们公布一个过时的功能时, 同时会提供一个最佳的更新方法。
 - We support existing use of a stable API during the deprecation period, so your code will keep working during that period.
 - We only make peer dependency updates (React) that require changes to your apps in a major release.

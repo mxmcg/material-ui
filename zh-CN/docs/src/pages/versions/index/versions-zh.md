@@ -26,13 +26,13 @@ Material-UI 严格遵循 [Semantic Versioning 2.0.0](https://semver.org/) 语义
 - **Minor releases** contain important new features. Minor releases are fully backward-compatible; no developer assistance is expected during update, but you can optionally modify your apps and libraries to begin using new APIs, features, and capabilities that were added in the release.
 - **Patch releases** are low risk, contain bug fixes and small new features. No developer assistance is expected during update.
 
-## Release frequency
+## 发布周期
 
 We work toward a regular schedule of releases, so that you can plan and coordinate your updates with the continuing evolution of Material-UI.
 
-In general, you can expect the following release cycle:
+通常情况下, 你可以根据以下的发布周期来预测:
 
-- A **major** release every 6 months.
+- 每六个月发布一个**主版本**
 - 1-3 **minor** releases for each major release.
 - A **patch** release every week (anytime for urgent bugfix).
 

@@ -1,14 +1,14 @@
-# Material-UI Versions
+# Material-UI 版本号
 
 <p class="description">You can come back to this page and switch the version of the docs you're reading at any time.</p>
 
-## Stable versions
+## 稳定版本
 
 The most recent version is recommended in production.
 
 {{"demo": "pages/versions/StableVersions.js", "hideHeader": true}}
 
-## Latest version
+## 最新版本
 
 Here you can find the latest unreleased documentation and code. You can use it to see what changes are coming and provide better feedback to Material-UI contributors.
 
@@ -20,7 +20,7 @@ We recognize that you need **stability** from the Material-UI library. Stability
 
 This document contains **the practices that we follow** to provide you with a leading-edge UI library, balanced with stability. We strive to ensure that future changes are always introduced in a predictable way. We want everyone who depends on Material-UI to know when and how new features are added, and to be well-prepared when obsolete ones are removed.
 
-Material-UI strictly follows [Semantic Versioning 2.0.0](https://semver.org/). Material-UI version numbers have three parts: `major.minor.patch`. The version number is incremented based on the level of change included in the release.
+Material-UI 严格遵循 [Semantic Versioning 2.0.0](https://semver.org/) 语义化版本规范。 Material-UI 的版本号由三部分组成：`主版本号.次版本号.修订版本号` The version number is incremented based on the level of change included in the release.
 
 - **Major releases** contain significant new features, some but minimal developer assistance is expected during the update. When updating to a new major release, you may need to run update scripts, refactor code, run additional tests, and learn new APIs.
 - **Minor releases** contain important new features. Minor releases are fully backward-compatible; no developer assistance is expected during update, but you can optionally modify your apps and libraries to begin using new APIs, features, and capabilities that were added in the release.

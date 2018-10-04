@@ -20,7 +20,7 @@ We recognize that you need **stability** from the Material-UI library. Stability
 
 This document contains **the practices that we follow** to provide you with a leading-edge UI library, balanced with stability. We strive to ensure that future changes are always introduced in a predictable way. We want everyone who depends on Material-UI to know when and how new features are added, and to be well-prepared when obsolete ones are removed.
 
-Material-UI 严格遵循 [Semantic Versioning 2.0.0](https://semver.org/) 语义化版本规范。 Material-UI 的版本号由三部分组成：`主版本号.次版本号.修订版本号` The version number is incremented based on the level of change included in the release.
+Material-UI 严格遵循 [Semantic Versioning 2.0.0](https://semver.org/) 语义化版本规范。 Material-UI 的版本号由三部分组成：`主版本号.次版本号.修订版本号`。 版本号的选择是根据更新内容的数量决定
 
 - **Major releases** contain significant new features, some but minimal developer assistance is expected during the update. When updating to a new major release, you may need to run update scripts, refactor code, run additional tests, and learn new APIs.
 - **Minor releases** contain important new features. Minor releases are fully backward-compatible; no developer assistance is expected during update, but you can optionally modify your apps and libraries to begin using new APIs, features, and capabilities that were added in the release.

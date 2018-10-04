@@ -1,16 +1,16 @@
 # Material-UI 版本号
 
-<p class="description">You can come back to this page and switch the version of the docs you're reading at any time.</p>
+<p class="description">你可以在任意时间回到本页切换文档的版本。</p>
 
 ## 稳定版本
 
-The most recent version is recommended in production.
+我们推荐在生产环境中使用最新版本。
 
 {{"demo": "pages/versions/StableVersions.js", "hideHeader": true}}
 
 ## 最新版本
 
-Here you can find the latest unreleased documentation and code. You can use it to see what changes are coming and provide better feedback to Material-UI contributors.
+在这里您可以找到尚未发布的最新文档和代码。 你可以使用它来查看最新的更新内容, 并为 Material-UI 的贡献者提供更好的反馈。
 
 {{"demo": "pages/versions/LatestVersion.js", "hideHeader": true}}
 
@@ -32,9 +32,9 @@ We work toward a regular schedule of releases, so that you can plan and coordina
 
 通常情况下, 你可以根据以下的发布周期来预测:
 
-- 每六个月发布一个**主版本**
-- 1-3 **minor** releases for each major release.
-- A **patch** release every week (anytime for urgent bugfix).
+- 每六个月发布一个**主版本**。
+- 每个主版本会附带1-3个向下兼容的**次版本**。
+- 每周会进行**日常**更新 (如果有紧急的 bugfix，则任何时候都可发布)。
 
 ## 发布计划
 
@@ -49,7 +49,7 @@ We work toward a regular schedule of releases, so that you can plan and coordina
 
 ## Support policy
 
-We only support the latest version of Material-UI. We don't yet have the resources to offer [LTS](https://en.wikipedia.org/wiki/Long-term_support) releases.
+我们只支持Material-UI的最新版本。 我们目前还没有提供[LTS](https://en.wikipedia.org/wiki/Long-term_support)的版本
 
 ## Deprecation practices
 
@@ -60,7 +60,7 @@ To make these transitions as easy as possible, we make two commitments to you:
 - We work hard to minimize the number of breaking changes and to provide migration tools when possible.
 - We follow the deprecation policy described here, so you have time to update your apps to the latest APIs and best practices.
 
-To help ensure that you have sufficient time and a clear path to update, this is our deprecation policy:
+为了确保您有足够的时间和明确的方法更新, 以下是我们的弃用策略:
 
 - 我们会在更新日志中公布过时的功能, 并在可能的情况下, 在运行时发出警告。
 - 当我们公布一个过时的功能时, 同时会提供一个最佳的更新方法。

@@ -171,8 +171,8 @@ This will apply a change such as the following:
 -import DropDownMenu from 'material-ui/DropDownMenu';
 +import Select from '@material-ui/core/Select';
 
--<DropDownMenu></DropDownMenu>
-+<Select value={this.state.value}></Select>
+-<DropDownMenu><MenuItem /></DropDownMenu>
++<Select value={this.state.value}><MenuItem /></Select>
 ```
 
 
